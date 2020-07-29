@@ -10,24 +10,24 @@ We also need to compare different formats of images, such as CCD and SAR. In the
 
 1. Download 4 images with ships from [the airbus chanllenge](https://www.kaggle.com/c/airbus-ship-detection). Extract the RLE of segments. Plot the images and the segments. (CCD images?)
 
- - I have downloaded all the images from the airbus challenges. You need to conda install kaggle and create the token from the kaggle account. The data is around 25 GB.
+  - I have downloaded all the images from the airbus challenges. You need to conda install kaggle and create the token from the kaggle account. The data is around 25 GB.
  
- - I prioritize **the third step** focusing on the gaofen chanllenge. We need to submit the docked image by the end of summer holiday.
+  - I prioritize **the third step** focusing on the gaofen chanllenge. We need to submit the docked image by the end of summer holiday.
  
 
 2. Download 4 images from [`sarship` folder](https://www.jianguoyun.com/p/DbVLM8oQ3cTHBhiZx68D). Extract the segments. Plot the images and segments. (SAR images?)
 
- - We can skip this step. We may study the sarship example in future.
+  - We can skip this step. We may study the sarship example in future.
 
 3. Download 4 images from [the task 2, 3 of the challenge](http://sw.chreos.org/datasetlist). Extract the segments. Plot the images and segments. (CCD images for task 2 and SAR images for task 3).
 
  - I have downloaded the data of the four tasks. Tasks 1,2,4 use the normal images (CCD format) while task 3 use the SAR images. Task 1,3,4 are similar, they are all about **pixels segmentation**, among which task 1 is the simplest (single object segmentation). Task 2 is **object segmentation** in which a rectangle box is used to segment the bridge. 
  
- - I suggest to take part in the tasks 2 and 3. 
+  - I suggest to take part in the tasks 2 and 3. 
 
 4. Download 2 images from [`hou` folder](https://www.jianguoyun.com/p/DXdgvqgQ3cTHBhidx68D). Extract the segments. Plot the images and the segments. (CCD and SAR images?)
 
- - We skip this step at this moment.
+  - We skip this step at this moment.
 
 ## Study and compare different deep learning models in terms of 
 
