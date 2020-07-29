@@ -55,9 +55,9 @@ I list several relevant deep learning models as follows. Note that the links I p
 
     6. [U-Net](https://github.com/jakeret/tf_unet)
     
-    [U-Net used in the airbus challenge](https://www.kaggle.com/kmader/baseline-u-net-model-part-1)
+        [U-Net used in the airbus challenge](https://www.kaggle.com/kmader/baseline-u-net-model-part-1)
     
-    There are several U-Net models and their deviations in [the Notebooks](https://www.kaggle.com/c/airbus-ship-detection/notebooks). It seems that the segments are always rectangles. The champion team name is "Rectangle is all you need". 
+        There are several U-Net models and their deviations in [the Notebooks](https://www.kaggle.com/c/airbus-ship-detection/notebooks). It seems that the segments are always rectangles. The champion team name is "Rectangle is all you need". 
 
     7. [V-Net](https://github.com/mattmacy/vnet.pytorch)
 
@@ -67,9 +67,9 @@ I list several relevant deep learning models as follows. Note that the links I p
 
     9. [Mask R-CNN](https://github.com/matterport/Mask_RCNN)
     
-    See [the introduction of Mask R-CNN](https://zhuanlan.zhihu.com/p/48381892)
+        See [the introduction of Mask R-CNN](https://zhuanlan.zhihu.com/p/48381892)
     
-    See [the general introduction](https://mp.weixin.qq.com/s?__biz=MzA5MjEyMTYwMg==&mid=2650242752&idx=1&sn=2bf846319d56abe741a53854fa3a4eb2&chksm=887221adbf05a8bbe8455adc875c2f2270cee78a6c814fcf717eb42d314f9ecb6c84a2440b72&scene=21#wechat_redirect) of R-CNN and Mask R-CNN.
+        See [the general introduction](https://mp.weixin.qq.com/s?__biz=MzA5MjEyMTYwMg==&mid=2650242752&idx=1&sn=2bf846319d56abe741a53854fa3a4eb2&chksm=887221adbf05a8bbe8455adc875c2f2270cee78a6c814fcf717eb42d314f9ecb6c84a2440b72&scene=21#wechat_redirect) of R-CNN and Mask R-CNN.
 
 ## Discuss which model above is suitable for the following five problems:
 
