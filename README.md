@@ -22,8 +22,8 @@ We also need to compare different formats of images, such as CCD and SAR. In the
 3. Download 4 images from [the task 2, 3 of the challenge](http://sw.chreos.org/datasetlist). Extract the segments. Plot the images and segments. (CCD images for task 2 and SAR images for task 3).
 
     - I have downloaded the data of the four tasks. Tasks 1,2,4 use the normal images (CCD format) while task 3 use the SAR images. Task 1,3,4 are similar, they are all about **pixels segmentation**, among which task 1 is the simplest (single object segmentation). Task 2 is **object segmentation** in which a rectangle box is used to segment the bridge. 
- 
-  - I suggest to take part in the tasks 2 and 3. 
+    
+    - I suggest to take part in the tasks 2 and 3. 
 
 4. Download 2 images from [`hou` folder](https://www.jianguoyun.com/p/DXdgvqgQ3cTHBhidx68D). Extract the segments. Plot the images and the segments. (CCD and SAR images?)
 
@@ -51,46 +51,46 @@ I list several relevant deep learning models as follows. Note that the links I p
 
 - Semantic segmentation
 
-  5. [Fully Convolutional Neural Network (FCNN)](https://github.com/MarvinTeichmann/tensorflow-fcn)
+    5. [Fully Convolutional Neural Network (FCNN)](https://github.com/MarvinTeichmann/tensorflow-fcn)
 
-  6. [U-Net](https://github.com/jakeret/tf_unet)
-  
-  [U-Net used in the airbus challenge](https://www.kaggle.com/kmader/baseline-u-net-model-part-1)
+    6. [U-Net](https://github.com/jakeret/tf_unet)
+    
+    [U-Net used in the airbus challenge](https://www.kaggle.com/kmader/baseline-u-net-model-part-1)
+    
+    There are several U-Net models and their deviations in [the Notebooks](https://www.kaggle.com/c/airbus-ship-detection/notebooks). It seems that the segments are always rectangles. The champion team name is "Rectangle is all you need". 
 
-There are several U-Net models and their deviations in [the Notebooks](https://www.kaggle.com/c/airbus-ship-detection/notebooks). It seems that the segments are always rectangles. The champion team name is "Rectangle is all you need". 
+    7. [V-Net](https://github.com/mattmacy/vnet.pytorch)
 
-  7. [V-Net](https://github.com/mattmacy/vnet.pytorch)
-
-  8. U-Net + DNN
+    8. U-Net + DNN
 
 - Instance segmentation
 
-  9. [Mask R-CNN](https://github.com/matterport/Mask_RCNN)
-
-   See [the introduction of Mask R-CNN](https://zhuanlan.zhihu.com/p/48381892)
-
-   See [the general introduction](https://mp.weixin.qq.com/s?__biz=MzA5MjEyMTYwMg==&mid=2650242752&idx=1&sn=2bf846319d56abe741a53854fa3a4eb2&chksm=887221adbf05a8bbe8455adc875c2f2270cee78a6c814fcf717eb42d314f9ecb6c84a2440b72&scene=21#wechat_redirect) of R-CNN and Mask R-CNN.
+    9. [Mask R-CNN](https://github.com/matterport/Mask_RCNN)
+    
+    See [the introduction of Mask R-CNN](https://zhuanlan.zhihu.com/p/48381892)
+    
+    See [the general introduction](https://mp.weixin.qq.com/s?__biz=MzA5MjEyMTYwMg==&mid=2650242752&idx=1&sn=2bf846319d56abe741a53854fa3a4eb2&chksm=887221adbf05a8bbe8455adc875c2f2270cee78a6c814fcf717eb42d314f9ecb6c84a2440b72&scene=21#wechat_redirect) of R-CNN and Mask R-CNN.
 
 ## Discuss which model above is suitable for the following five problems:
 
 
 1. [Airbus challenge](https://www.kaggle.com/c/airbus-ship-detection)
 
- - Skip at this moment. Single object detection model should be enough, such as U-Net.
+    - Skip at this moment. Single object detection model should be enough, such as U-Net.
 
 2. [AIR-SARShip](https://www.jianguoyun.com/p/DbVLM8oQ3cTHBhiZx68D)
 
- - Skip at this moment. This problem is similar to the airbus challenge. But it use the SAR images rather than the normal image. The paper compares the performance of different models.
+    - Skip at this moment. This problem is similar to the airbus challenge. But it use the SAR images rather than the normal image. The paper compares the performance of different models.
 
 4. [Task 2: single object detection of bridge](http://sw.chreos.org/competitionlist)
 
- - Task 2 of Gaofen challenge is similar to the above two problems. **We start with the baseline of U-Net model.** I suggest you to establish a U-Net model and calibrate it on the task 2 bridge data after you are familar with the format of images and segmentation files.
+    - Task 2 of Gaofen challenge is similar to the above two problems. **We start with the baseline of U-Net model.** I suggest you to establish a U-Net model and calibrate it on the task 2 bridge data after you are familar with the format of images and segmentation files.
 
 5. [Task 3: semantic/instance segmentation of 6 objects](http://sw.chreos.org/competitionlist)
 
 3. ['hou' folder](https://www.jianguoyun.com/p/DXdgvqgQ3cTHBhidx68D)
 
- - Skip at this moment. This problem is similar to task 2 of bridge detection. I am not sure whether we need to classify different types of ship such as warships, fish boats etc.
+    - Skip at this moment. This problem is similar to task 2 of bridge detection. I am not sure whether we need to classify different types of ship such as warships, fish boats etc.
 
 ## Understand the loss functions for detection and segmentation in the gaofen challenge
 
