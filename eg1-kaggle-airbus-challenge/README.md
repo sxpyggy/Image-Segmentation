@@ -20,10 +20,10 @@ Note that object segments **cannot overlap**. There were a small percentage of i
 We draw a sample of images in Figure \@ref(fig:images) and the same sample images with the ship segments in Figure \@ref(fig:ground-truth). 
 
 ```{r images, fig.cap='Images',echo=F}
-knitr::include_graphics('plots/0.png')
+knitr::include_graphics('data/0.png')
 ```
 
 ```{r ground-truth, fig.cap='Images with ship segments',echo=F}
-knitr::include_graphics('plots/1.png')
+knitr::include_graphics('data/1.png')
 ```
 

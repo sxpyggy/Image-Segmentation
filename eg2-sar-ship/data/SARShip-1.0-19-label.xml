@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+<filename>19.tiff</filename>
+<size>
+<width/>
+3000
+<height/>
+3000
+</size>
+<resolution>3</resolution>
+<sensor>GF-3</sensor>
+<object>
+<name>ship</name>
+<bndbox>
+<xmin>1353</xmin>
+<ymin>608</ymin>
+<xmax>1392</xmax>
+<ymax>680</ymax>
+</bndbox>
+</object>
+</annotation>
