@@ -1,15 +1,15 @@
 1. 桥梁识别
 
-- 图像旋转等数据增强方法。
+    - 图像旋转等数据增强方法。
 
-- 划分训练集、验证集，根据图像中桥梁的数目（桥梁大小、图片大小等？）信息进行分层抽样。
+    - 划分训练集、验证集，根据图像中桥梁的数目（桥梁大小、图片大小等？）信息进行分层抽样。
 
-- 调参，early stop 防止过拟合。
+    - 调参，early stop 防止过拟合。
 
 
 2. SAR 图像语义分割
 
-- 四幅图叠成一幅图。
+    - 四幅图叠成一幅图。
 
 
 The purpose of this repo is to setting up **deep learning models** for **object detection and segmentation**.
